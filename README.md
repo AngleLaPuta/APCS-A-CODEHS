@@ -15,3 +15,5 @@ For legal reasons, let it be known that this code is only intended as a referenc
 Shoutout to the chatgpt devs for coming up with the code for some of the later sections.
 
 Also I'm not gonna be linking any of the Tester files ya'll should know how to do that at the very least.
+
+If you need help or the code isn't working, you can dm me on twitter @anglesarts and lmk.
