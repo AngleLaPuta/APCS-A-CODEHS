@@ -2,6 +2,10 @@
 
 INCOMPLETE AS OF RIGHT NOW.
 
+'''
+April 14: Chapter 2 Completed
+'''
+
 doing the (APCS-A) world a favor.
 
 For legal reasons, let it be known that this code is only intended as a reference and for assistance purposes. Any attempts to use it for cheating would be highly frowned upon and may lead to serious consequences. And as for CodeHS, just pretend you never saw this.
