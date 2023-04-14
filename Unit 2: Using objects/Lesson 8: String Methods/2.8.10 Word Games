@@ -1,0 +1,50 @@
+import java.lang.*;
+public class WordGames
+{
+    private String word;
+    
+    public WordGames(String text)
+    {
+        word = text;
+    }
+    
+    public String scramble()
+    {
+        // Switch first half
+        // And second half
+        int length = word.length();
+        int half = length/2;
+        String scramble = word.substring(half) + word.substring(0,half);
+        return scramble;
+      
+    }
+    
+    
+    public String bananaSplit(int insertIdx, String insertText)
+    {
+        // Insert insertText at the position
+        StringBuffer newString = new StringBuffer(word);
+      newString.insert(insertIdx, insertText);
+      return newString.toString();
+
+       
+    }
+    
+    
+  public String bananaSplit(String insertChar, String insertText)
+    {
+        // Insert insertText after the first
+        int idc = word.indexOf(insertChar);
+        String b42 = word.substring(0, idc);
+        String af2 = word.substring(idc);
+        String bs = b42 + insertText + af2;
+        return bs;
+    }
+
+ 
+    public String toString()
+    {
+        word = "[" + word + "]";
+        return word;
+    }
+}
