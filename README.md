@@ -1,9 +1,11 @@
-# APCS-A-CODEHS
+# APCS-A CODEHS
 
 INCOMPLETE AS OF RIGHT NOW.
 
 '''
-April 14: Chapter 2 Completed
+
+April 14: Chapter 2 Completed, Chapter 3 Lessons 6 and 7 Completed
+
 '''
 
 doing the (APCS-A) world a favor.
