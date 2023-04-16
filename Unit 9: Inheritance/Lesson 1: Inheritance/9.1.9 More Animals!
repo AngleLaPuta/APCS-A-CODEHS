@@ -1,0 +1,57 @@
+public class Animal {
+    private String typeOfAnimal;
+    
+    public String getTypeOfAnimal() {
+        return typeOfAnimal;
+    }
+    
+    public void setTypeOfAnimal(String typeOfAnimal) {
+        this.typeOfAnimal = typeOfAnimal;
+    }
+}
+
+public class Dog extends Pet {
+    private boolean trained;
+    
+    
+    public boolean isTrained() {
+        return trained;
+    }
+    
+    public void setTrained(boolean trained) {
+        this.trained = trained;
+    }
+    
+}
+
+public class Fish extends Pet {
+    private String waterType;
+    
+    public String getWaterType() {
+        return waterType;
+    }
+    
+    public void setWaterType(String waterType) {
+        this.waterType = waterType;
+    }
+ 
+}
+
+public class Pet extends Animal {
+    private String name;
+    private String size;
+    public String getName() {
+        return name;
+    }
+    public String getSize() {
+        return size;
+    }
+    
+    public void setSize(String size) {
+        this.size = size;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+}
