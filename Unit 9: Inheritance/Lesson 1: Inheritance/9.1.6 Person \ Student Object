@@ -1,0 +1,57 @@
+public class PersonRunner
+{
+    public static void main(String[] args)
+    {
+        Person edison = new Person("Thomas Edison","February 11, 1847");
+        System.out.print(edison.getName());
+        System.out.print(edison.getBirthday());
+        
+        Student einstein = new Student("Albert Einstein","March 14, 1879",12,5.0);
+        System.out.print(einstein.getName());
+        System.out.print(einstein.getBirthday());
+        System.out.print(einstein.getGrade());
+        System.out.print(einstein.getGpa());
+    }
+}
+
+public class Person {
+
+    private String name;
+    private String birthday;
+
+    public Person (String name, String birthday)
+    {
+        this.name = name;
+        this.birthday = birthday;
+    }
+
+    public String getBirthday(){ 
+        return birthday;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+
+}
+
+public class Student extends Person {
+
+    private int grade;
+    private double gpa;
+
+    public Student(String name, String birthday, int grade, double gpa){
+        super(name, birthday);
+        this.grade = grade;
+        this.gpa = gpa;
+    }
+
+    public int getGrade(){
+        return grade;
+    }
+
+    public double getGpa(){
+        return gpa;
+    }
+}
