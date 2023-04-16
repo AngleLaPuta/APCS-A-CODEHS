@@ -1,0 +1,102 @@
+public class Book {
+    private String ISBN;
+    private String title;
+    private String author;
+    public String name;
+    public int pages;
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
+    
+    public String getISBN() {
+        return ISBN;
+    }
+    
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
+    }
+    
+    public String getTitle() {
+        return title;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public int getPages(){
+        return pages;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    
+    public String getAuthor() {
+        return author;
+    }
+    
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+}
+
+public class Book {
+    private String ISBN;
+    private String title;
+    private String author;
+    public String name;
+    public int pages;
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
+    
+    public String getISBN() {
+        return ISBN;
+    }
+    
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
+    }
+    
+    public String getTitle() {
+        return title;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    
+    public int getPages(){
+        return pages;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    
+    public String getAuthor() {
+        return author;
+    }
+    
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+}
+
+public class Fiction extends Book
+{
+    private String author;
+    
+    
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public String getAuthor() {
+        return author;
+    }
+    
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+}
